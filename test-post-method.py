@@ -27,9 +27,5 @@ data = {
   }
 }
 
-# HTTP Methods
-# What is the method for "create" -> POST
-
-
 r = requests.post(endpoint, json=data, headers=headers, timeout=10)
 print(r.json())
